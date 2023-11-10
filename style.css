@@ -1,0 +1,22 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+button{
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(154, 154, 226);
+  color: aliceblue;
+  font-size: 18px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgba(0, 0, 255, 0.692);
+}
